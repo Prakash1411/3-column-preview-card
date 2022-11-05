@@ -60,19 +60,42 @@ p{
 
 button{
   background-color: white;
-  border: none;
+  border: 1px solid white;
   border-radius: 30px;
   padding: 15px 25px;
+  cursor: pointer;
 }
 
 .first-section button{
   color: hsl(31, 77%, 52%);
+  transition: 0.5s ease;
+}
+
+.first-section button:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
 }
 
 .second-section button{
   color: hsl(184, 100%, 22%);
+  transition: 0.5s ease;
+}
+
+.second-section button:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
 }
 
 .third-section button{
   color: hsl(179, 100%, 13%);
+  transition: 0.5s ease;
 }
+
+.third-section button:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 1px solid white;
+}
+
