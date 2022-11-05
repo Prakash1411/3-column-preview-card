@@ -103,7 +103,6 @@ button{
   main{
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 226px;
     border-radius: 8px;
   }
